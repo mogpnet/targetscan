@@ -1,0 +1,19 @@
+# Скомпилированная программа в корне
+/targetscan
+/targetscan.exe
+
+# Результаты сборки и тестов
+/bin/
+/dist/
+*.test
+coverage.out
+
+# Локальные секреты
+.env
+.env.*
+!.env.example
+
+# Файлы редакторов
+.idea/
+.vscode/
+*.swp
